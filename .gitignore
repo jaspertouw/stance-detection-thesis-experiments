@@ -1,0 +1,11 @@
+# Data & models
+/data/
+/checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# IDE
+.vscode/
