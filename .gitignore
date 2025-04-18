@@ -1,5 +1,6 @@
 # Data & models
-/data/
+!data/GWSD.tsv
+/data/*
 /checkpoints/
 
 # Python
