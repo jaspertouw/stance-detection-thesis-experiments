@@ -1,13 +1,17 @@
 # stance-detection-thesis-experiments
 
-This repo holds:
-- Baselines (majority & uniform)
-- Logistic‑Reg (MV & AW)
-- BERT fine‑tuning (MV & AW)
-- Evaluation scripts (hard/soft metrics, disagreement analysis)
+This repository contains all code for:
 
-**Usage** (in the browser):
-1. Create new files under `src/` (see below).
-2. Create `.gitignore`, `requirements.txt`, `config.py`.
-3. Paste code into each.
-4. Commit each file.
+- **Baselines** (majority & uniform)
+- **Logistic Regression** (majority‑vote & annotator‑wise)
+- **BERT fine‑tuning** (majority‑vote & annotator‑wise)
+- **Evaluation scripts** (hard/soft metrics, disagreement analysis)
+
+1. **Create & activate a virtual environment**
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate    # on Windows: venv\Scripts\activate
+
+   pip install -r requirements.txt
+
